@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  background-color: teal;
+  color: white;
+}
+
+.input {
+  padding: 20px;
+  margin-top: 20px;
+}
+.left-header {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
+  position: relative;
+  left: -240px;
+}
+.right-header {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 2px;
+  position: relative;
+  left: -205px;
+}
+
+.output {
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-text {
+  width: 600px;
+  height: 400px;
+  color: white;
+  font-size: 1.5rem;
+  font-family:  "Times New Roman", Times, serif;
+  border: 2px solid rgba(95, 81, 81, 0.89);
+  border-radius: 5px;
+  background-color: rgba(0, 128, 128, 0.897);
+  outline: none;
+  padding: 15px;
+  margin-left: 65px;
+}
+
+.output-text {
+  width: 500px;
+  height: 500px;
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Times New Roman", Times, serif;
+  padding: 15px;
+  border: 3px solid rgb(95, 81, 81);
+  background-color: rgba(95, 81, 81, 0.89);
+  box-shadow: 2px 2px 4px black;
+}
